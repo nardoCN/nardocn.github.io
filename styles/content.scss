@@ -3,6 +3,19 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: calc(100vh - 99.63px - 36px);
     margin-bottom: auto;
+
+    .sections {
+        width: 100%;
+        height: 100%;
+
+        section {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
 }
