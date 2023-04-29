@@ -1,5 +1,9 @@
+import HaloSection from "../components/halo-section";
+
 export default function Home() {
     return (
-        <h1>Hello world!</h1>
+        <>
+            <HaloSection />
+        </>
     )
 }

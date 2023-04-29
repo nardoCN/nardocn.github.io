@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Inter', sans-serif;
+    color: $secondary-color;
+}
+
+@mixin text_menu_style {
+    font-size: $menu-font-size;
+    color: $secondary-color;
+}
+
+h2 {
+    line-height: 1.5;
+}
+h3 {
+    line-height: 1.4;
+}
+h4 {
+    line-height: 1.3;
+}
+p {
+    line-height: 1.2;
+}
