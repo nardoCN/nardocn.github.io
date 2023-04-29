@@ -1,0 +1,41 @@
+{
+  "name": "nhanchu-portfolio",
+  "version": "1.0.0",
+  "description": "NhanChu's Porfolio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nardoCN/nardocn.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "nhanchu",
+    "web",
+    "developer",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "NhanChu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nardoCN/nardocn.github.io/issues"
+  },
+  "homepage": "https://github.com/nardoCN/nardocn.github.io#readme",
+  "dependencies": {
+    "next": "^13.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.16.2",
+    "@types/react": "18.2.0",
+    "typescript": "5.0.4"
+  }
+}
