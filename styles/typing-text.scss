@@ -1,0 +1,29 @@
+.typing-text {
+    &__wrap {
+        display: none;
+
+        &.showable {
+            display: inline-block;
+        }
+    }
+    
+
+    &__word {
+        opacity: 0;
+        transition: 0.2s;
+
+        &.active {
+            opacity: 1;
+
+            &:after {
+                content: none;
+            }
+        }
+        &:after {
+            content: ' ';
+            width: 3px;
+            height: 100%;
+            border-bottom: solid 1px #FFF;
+        }
+    }
+}

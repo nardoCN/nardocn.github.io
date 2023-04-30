@@ -20,10 +20,12 @@ export default function Home() {
                 onPrev={(page, y, height) => {
                     // console.log('onPrev', page, y, height);
                 }}>
-                <PageScroller>
-                    <HaloSection />
-                </PageScroller>
-                <PageScroller>
+                {[
+                    <PageScroller>
+                        <HaloSection />
+                    </PageScroller>
+                ]}
+                {/* <PageScroller>
                     <WorksSection />
                 </PageScroller>
                 <PageScroller>
@@ -34,7 +36,7 @@ export default function Home() {
                 </PageScroller>
                 <PageScroller>
                     <ContactSection />
-                </PageScroller>
+                </PageScroller> */}
             </PagesScroller>
         </div>
     )
