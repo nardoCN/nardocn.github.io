@@ -8,7 +8,7 @@ export default function Header() {
                     <div className="header-logo">
                         <h1>NhanChu</h1>
                     </div>
-                    <div className="header-menu">
+                    {/* <div className="header-menu">
                         <nav>
                             <div className="header-menu-item">
                                 <a href="#">About</a>
@@ -20,7 +20,7 @@ export default function Header() {
                                 <a href="#">Contact</a>
                             </div>
                         </nav>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </header>
