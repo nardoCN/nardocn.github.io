@@ -6,7 +6,7 @@ export default function Header() {
             <div className="container">
                 <div className="header">
                     <div className="header-logo">
-                        <h1><Logo /></h1>
+                        <h1>NhanChu</h1>
                     </div>
                     <div className="header-menu">
                         <nav>
